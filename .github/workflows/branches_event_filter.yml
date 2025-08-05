@@ -4,7 +4,7 @@ on:
   push:
      branches:
         - main  
-        - feature_branch_10
+        # - feature_branch_10
      paths:
         - 'src/**'
 
