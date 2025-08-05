@@ -3,7 +3,8 @@ name: branches_event_filter
 on: 
   push:
      branches:
-        - main        
+        - main  
+        - feature_branch_10
      paths:
         - 'src/**'
 
