@@ -3,7 +3,10 @@ name: branches_event_filter
 on: 
   push:
      branches:
-        - main
+        - main        
+     paths:
+        - 'src/**'
+
   
 jobs: 
 
